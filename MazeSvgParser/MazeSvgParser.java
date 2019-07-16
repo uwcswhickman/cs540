@@ -42,6 +42,7 @@ public class MazeSvgParser
 			System.exit(4);
 		}
 		
+		// https://www.java2novice.com/java-file-io-operations/file-list-by-file-filter/
 		File[] mazeFileArray = loadDir.listFiles(new FilenameFilter() {
 				@Override
 				public boolean accept(File dir, String name) 
